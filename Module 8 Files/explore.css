@@ -1,0 +1,71 @@
+img {
+    float: right;
+    margin: 0 0 10px 10px;
+		background-color: red;
+}
+	* {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Here is a css file */
+
+/* The errors can all be found in the following css */
+
+.header, footer {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+	.header, .footer h2 {font-variant: small-caps;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	font-size: larger;
+	text-align: center;
+}
+
+/* the next three pieces of css control the center section of the page, where the content goes */
+
+.column {
+    float: left;
+    padding: 15pd;
+}
+
+.menu {
+    width: 25%;
+	position: static
+}
+
+.content {
+    width: 75%;
+	border-right: thin;
+	border-right-color: darkgrey;
+	border-right-style:solid;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: darkgray;
+    color: #ffffff;
+	font: oblique;
+	text-align: center;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+}
+
+.menu li:hover {
+    background-color: firebrick
+}
+	.menu a {
+        text-decoration: none;
+	    color: aliceblue;
+    }
